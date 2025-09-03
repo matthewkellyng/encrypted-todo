@@ -1,18 +1,23 @@
-# React + TypeScript + Vite
+# Encrypted todo App
 
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
-This is a default template customised to include some basic tools that I find helpful. Feel free to use it as you see fit.
+Want a todo app that doesn't spy on you? Want the ability to share todos with other users without giving some company access to your private todo list? Then this is the todo app for you. Intended to:
 
-## TODO
+- feel great to use
+- keep your data private
+- work offline
+- allow sharing of lists between users
 
-- [ ] Add fleshed out readme page describing the tooling
-- [ ] Add cspell (eslint) plugin
-- [ ] Add stand alone cspell for spell checking git messages
-- [x] Add husky and commit lint
-- [x] Add vitest for testing
-- [x] Add tailwind
-- [x] Add commitizen with commit lint adapter to maintain one shared config
-- [ ] Potential add msw?
-- [ ] Add dependabot or renovate or some dependency updating manager
-- [ ] Add release-it or some sort of conventional commits release tool
+## Road map:
+
+- [ ] Setup etebase
+- [ ] Setup login page
+- [ ] Setup local sqlite etebase instance for dev
+- [ ] Setup todo page
+- [ ] Add due by date
+- [ ] Setup multiple lists
+- [ ] Allow sorting
+- [ ] Add favourites
+- [ ] Add work offline capacity
+- [ ] Add list sharing
